@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.Controller0">
+   <children>
+      <Text layoutX="334.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vista 0" wrappingWidth="131.13671875" AnchorPane.leftAnchor="334.0" AnchorPane.topAnchor="19.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <Button fx:id="button0" layoutX="656.0" layoutY="25.0" mnemonicParsing="false" onAction="#animateToView1" prefHeight="33.0" prefWidth="122.0" style="-fx-background-color: white;" text="vista 1 &gt;" AnchorPane.rightAnchor="22.5" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="percentatge1" layoutX="46.0" layoutY="237.0" prefHeight="30.0" prefWidth="79.0" text="0%">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="percentatge2" layoutX="46.0" layoutY="370.0" prefHeight="30.0" prefWidth="85.0" text="0%">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <ProgressBar fx:id="progress0" layoutX="46.0" layoutY="162.0" prefHeight="41.0" prefWidth="485.0" progress="0.0" />
+      <ProgressBar fx:id="progress1" layoutX="46.0" layoutY="280.0" prefHeight="41.0" prefWidth="485.0" progress="0.0" />
+      <ProgressBar fx:id="progress2" layoutX="46.0" layoutY="413.0" prefHeight="41.0" prefWidth="485.0" progress="0.0" />
+      <Button fx:id="boton1" layoutX="568.0" layoutY="162.0" mnemonicParsing="false" onAction="#runtareas" prefHeight="41.0" prefWidth="111.0" text="Iniciar" />
+      <Line endX="555.0" layoutX="245.0" layoutY="71.0" startX="-245.0" />
+      <Button fx:id="boton2" layoutX="568.0" layoutY="280.0" mnemonicParsing="false" onAction="#runtareas" prefHeight="41.0" prefWidth="111.0" text="Iniciar" />
+      <Button fx:id="boton3" layoutX="568.0" layoutY="413.0" mnemonicParsing="false" onAction="#runtareas" prefHeight="41.0" prefWidth="111.0" text="Iniciar" />
+      <Label fx:id="percentatge0" layoutX="46.0" layoutY="112.0" prefHeight="44.0" prefWidth="79.0" text="0%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
