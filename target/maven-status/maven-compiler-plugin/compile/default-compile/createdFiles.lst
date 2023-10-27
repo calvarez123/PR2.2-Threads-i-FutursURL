@@ -1,5 +1,5 @@
-com\project\Main.class
-com\project\Controller1.class
-com\project\initialize.class
-com\project\Controller0.class
-com\project\UtilsViews.class
+com/project/Main.class
+com/project/Controller0.class
+com/project/initialize.class
+com/project/Controller1.class
+com/project/UtilsViews.class
